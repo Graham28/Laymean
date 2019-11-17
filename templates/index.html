@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'css/style.css'%}" type="text/css">
+  <title>Laymean</title>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="hot_topics.html">Laymean</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tools</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+
+    <!-- Page Content -->
+    <div class="container-fluid landing">
+  
+      <div class="row">
+        
+  
+        <!-- Landing -->
+        <div class="col-md-12">
+          <h2 class="col-md-12" id="landing_slogan"></h2>
+          <div class="input-group col-md-12 landing_search" >
+            <input type="text" id="search_query" class="form-control" placeholder="Search for something medical... (like Vaccine or Heart rate)">
+            <span class="input-group-btn">
+              <button class="btn btn-secondary" type="button" id="go" onclick="search()">Go!</button>
+            </span>
+          </div>
+          <!--<a class="col-md-12"href="/topic_page">Start</a>-->
+        </div>
+  
+      </div>
+      <!-- /.row -->
+  
+    </div>
+  
+    <!-- Footer -->
+    <footer class="py-4 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Laymean 2019</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+      <!-- My JavaScript-->
+      <script src="{% static 'javascript/home.js'%}"></script>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

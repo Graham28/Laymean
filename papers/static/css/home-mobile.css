@@ -1,0 +1,44 @@
+body {
+  padding-top: 25px;
+  height: 100%;
+}
+p {
+  color: red;
+}
+.landing {
+  background: #c96262 url(/images/Untitled.jpg) no-repeat right top;
+  /*height: 600px;*/
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing h2 {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 3em;
+}
+
+.landing div {
+  
+  text-align: center;
+}
+
+.landing a {
+  color: white;
+  font-size: 3em;
+  padding-top: 1em;
+}
+
+.landing a:hover {
+  color: white;
+  font-size: 3.2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  text-decoration: none;
+}
+

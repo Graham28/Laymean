@@ -1,0 +1,89 @@
+body {
+  padding-top: 56px;
+  height: 100%;
+  
+}
+
+.landing {
+  background: #c96262 url(../images/research.jpg) no-repeat right top;
+  /*height: 600px;*/
+  height: 85vh;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing h2 {
+  color:white;
+  font-size: 3.6em;
+  text-align: center;
+  padding-top: 4em;
+}
+
+.landing div {
+  
+  text-align: center;
+}
+
+.landing a {
+  color: white;
+  font-size: 3em;
+  padding-top: 1em;
+}
+
+.landing a:hover {
+  color: white;
+  font-size: 3.2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  text-decoration: none;
+}
+
+
+
+.card-body {
+  width:15em;
+}
+
+.landing_details {
+  padding-top: 3em;
+}
+
+.landing_search {
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 15%;
+}
+
+/*#landing_slogan {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 5em;
+}
+
+#start_button {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 5em;
+}
+*/
+
+.landing_details {
+  background: #ffffff;
+  height: 600px; 
+  text-align: center;
+}
+
+.landing_details i{
+  font-size: 5em;
+  text-align: center;
+}
+
+.hot-topics .card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
